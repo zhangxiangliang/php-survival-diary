@@ -22,7 +22,7 @@ use Lionis\Life as Diary;
  */
 Class Diary {
 	// Url: 01-object-oriented-bootcamp-in-php
-    $diaryOne   = "面向对象新兵训练营";
+    $diaryOne   = "面向对象的一些例子";
 
 	// Url: 02-mvc
     $diaryTwo   = "简易的MVC框架";

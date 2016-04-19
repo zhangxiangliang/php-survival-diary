@@ -8,14 +8,15 @@ PHP/FI，一个专为个人主页／表单提供解释程序的程序，已经�
 
 ```php
 <?php
-	$connect = mysql_connect('localhost', 'root', 'root');
-	mysql_select_db('blog', $connect);
-	mysql_query('SET NAMES UTF8');
-	
-	$query = "SELECT * FORM article";
-	$result = mysql_query($query);
 
-	// ... more code
+$connect = mysql_connect('localhost', 'root', 'root');
+mysql_select_db('blog', $connect);
+mysql_query('SET NAMES UTF8');
+
+$query = "SELECT * FORM article";
+$result = mysql_query($query);
+
+// ... more code
 ```
 
 ##### 时间线 - PHP 3 到现在

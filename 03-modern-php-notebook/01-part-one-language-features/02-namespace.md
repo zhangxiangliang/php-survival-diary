@@ -65,6 +65,13 @@ use	Lionis\Is\Very\Clever;
 use	Lionis\Have\Very\Much\Momey;
 ```
 
+##### 不导入的引用方法
+如果不使用 `use` 导入命名空间的话，可以直接使用命名空间引用。
+```
+$person = new \Lionis\Is\Very\Cool();
+```
+这样写的原因是因为，PHP在解析的时候如果需要使用`Cool`类，PHP需要知道`Cool`才能使用。打个不怎么正确的比喻把，你总不能对着空气喊一个千里之外人的名字吧。 空气传递声音的时候，他会找不到要传递给谁呢。（T T，原谅我这个不正确的比喻哈）
+
 ### 使用
 有的同学会说“Lionis 你坏坏，骗人家，人家这样写根本用不了”。
 
@@ -100,5 +107,7 @@ $lionis = new Person();
 ```
 可是问题又来了，如果有非常多的引用怎么办呢。如果突然间想改文件的名字怎么办呢。难道一个个改吗？这时候可以使用 `composer` 这个工具来实现自动加载。简直好用到 cry !!!
 
-怎么用呢?宝宝傲娇了不在这边细讲，下次有机会再写一篇。如果真的很想知道的话。[传送门](http://docs.phpcomposer.com/01-basic-usage.html#Autoloading)
+怎么用呢?宝宝傲娇了不在这边细讲，下次有机会再写一篇。如果真的很想知道的话。[[传送门](http://docs.phpcomposer.com/01-basic-usage.html#Autoloading)]
 
+### 拓展
+《深入理解PHP内核》 [[传送门](http://www.php-internals.com/book/?p=chapt05/05-08-class-namespace)]

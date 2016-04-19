@@ -4,9 +4,8 @@
 现在网上有非常多的PHP教程，但是有很多PHP教程是已经过时的了，教学的是一些过时的方法。很容易就会误入歧途，写出不安全的代码。这本书是`PHP之道`([传送门](http://laravel-china.github.io/php-the-right-way/))作者写的一本书。
 
 ### 结构
-|- 01-part-one-language-feature 语言特性
-
-|	|- 01-new-age-the-php 新时代的PHP
+	|- 01-part-one-language-feature 语言特性
+	|	|- 01-new-age-the-php 新时代的PHP
 
 ### 感受
 ##### 2016-04-19

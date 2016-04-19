@@ -102,8 +102,6 @@ $lionis = new Person();
 require_once 'lionis/src/Person.php'
 use Lionis\Person;
 $lionis = new Person();
-
-// 运行输出找不到 Person 这个类
 ```
 可是问题又来了，如果有非常多的引用怎么办呢。如果突然间想改文件的名字怎么办呢。难道一个个改吗？这时候可以使用 `composer` 这个工具来实现自动加载。简直好用到 cry !!!
 

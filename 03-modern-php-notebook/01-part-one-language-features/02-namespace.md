@@ -21,12 +21,14 @@ $person_two = new 英俊_潇洒_风流倜傥_男_女_老_少_学委_学妹_通�
 <?php
 
 namespace Lionis;
+
 ```
 当然也可以拥有子命名空间。
 ```php
 <?php
 
 namespace Lionis\Is\Very\Cool;
+
 ```
 顶层的命名空间必须有全局一致性，子命名空间没有那么重要，不过有利于组织项目的代码。
 
@@ -55,6 +57,7 @@ $lionis = new CoolBoy();
 use Lionis\Is\Very\Cool,
 	Lionis\Is\Very\Clever,
 	Lionis\Have\Very\Much\Momey;
+
 ```
 虽然可以这样写没错，但是很容易让人困惑。推荐以下写法，使代码更容易理解。(其实我只是单纯的想多夸一次自己而已)
 ```php
@@ -63,6 +66,7 @@ use Lionis\Is\Very\Cool,
 use Lionis\Is\Very\Cool;
 use	Lionis\Is\Very\Clever;
 use	Lionis\Have\Very\Much\Momey;
+
 ```
 
 ##### 不导入的引用方法
@@ -78,11 +82,13 @@ $person = new \Lionis\Is\Very\Cool();
 ```php
 <?php
 // 文件路径：lionis/src/Person.php
-
 namespace Lionis\Person;
-class Person {
+
+class Person
+{
 	protected $name;
-	public function __construct($name) {
+	public function __construct($name)
+	{
 		$this->name = $name;
 	}
 }
@@ -91,6 +97,7 @@ class Person {
 <?php 
 // 文件路径：lionis/public/index.php
 use Lionis\Person;
+
 $lionis = new Person();
 
 // 运行输出找不到 Person 这个类
@@ -101,6 +108,7 @@ $lionis = new Person();
 // 文件路径：lionis/public/index.php
 require_once 'lionis/src/Person.php'
 use Lionis\Person;
+
 $lionis = new Person();
 ```
 可是问题又来了，如果有非常多的引用怎么办呢。如果突然间想改文件的名字怎么办呢。难道一个个改吗？这时候可以使用 `composer` 这个工具来实现自动加载。简直好用到 cry !!!

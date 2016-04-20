@@ -70,23 +70,24 @@ interface ConnectionInterface
 	// ... more code
 }
 ```
-```
+```php
 class MySqlConnection implements ConnectionInterface
 {
 	// ... more code 
 }
 ```
-```
+```php
 class SQLiteConnection implements ConnectionInterface
 {
 	// ... more code 
 }
 ```
 当调用的时候只要传入接口就可以了。
-```
+```php
 class Model
 {
 	public function useDataBase(ConnectionInterface $connection) {
+		// 比如 $connection->create($query);
 		// ... more code
 	}
 	// ... more code

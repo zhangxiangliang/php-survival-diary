@@ -69,8 +69,8 @@ use	Lionis\Have\Very\Much\Momey;
 
 ```
 
-##### 不导入的引用方法
-如果不使用 `use` 导入命名空间的话，可以直接使用命名空间引用。
+##### 全局命名空间
+如果不使用 `use` 导入命名空间的话，可以直接使用`完全限定PHP类名`。
 ```
 $person = new \Lionis\Is\Very\Cool();
 ```

@@ -38,8 +38,9 @@ interface LionisInterface
 }
 ```
 ##### 接口的实现
-```
-class Lionis implements LionisInterface {
+```php
+class Lionis implements LionisInterface
+{
 	public function setCool()
 	{
 		return "Lionis is very cool.";		
@@ -86,7 +87,8 @@ class SQLiteConnection implements ConnectionInterface
 ```php
 class Model
 {
-	public function useDataBase(ConnectionInterface $connection) {
+	public function useDataBase(ConnectionInterface $connection)
+	{
 		// 比如 $connection->create($query);
 		// ... more code
 	}

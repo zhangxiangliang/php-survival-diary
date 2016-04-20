@@ -95,5 +95,6 @@ class Model
 通过使用接口，就可以把多个功能相同，实现不同的类，用同样的方式来调用。
 
 ### 扩展
-可以看看 laravel 等框架或组件的数据库类的实现。
+可以看看框架或组件的数据库类的实现。比如 `Illuminate Database`。 [传送门](https://github.com/illuminate/database)
+
 

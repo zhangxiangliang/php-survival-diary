@@ -70,5 +70,5 @@ PSR是PHP Standards Recommendation（PHP标准推荐）的简称。它是由一�
 * PSR-4 自动加载标准
 * PSR-6 缓存接口
 * PSR-7 HTTP消息接口
-《Modern PHP》改书只介绍了`PSR-1`、`PSR-2`、`PSR-3`、`PSR-4`，到时有时间我会把新的规范也给加入进来。新手的话看一下`PSR-1`、`PSR-2`、`PSR-4`等成老司机了再来补充进修。
+《Modern PHP》该书只介绍了`PSR-1`、`PSR-2`、`PSR-3`、`PSR-4`，到时有时间我会把新的规范也给加入进来。新手的话看一下`PSR-1`、`PSR-2`、`PSR-4`等成老司机了再来补充进修。
 

@@ -26,7 +26,7 @@
 ```
 
 ##### 手机端
-```
+```html
 <div class="lionis six phone">
 	<h1>Lionis</h1>
 </div>

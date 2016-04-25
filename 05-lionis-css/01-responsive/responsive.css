@@ -35,7 +35,7 @@
     vertical-align: top;
     text-rendering: auto;
 }
-/* 电脑端 */
+/* PC端 */
 @media screen and (min-width: 80em) {
 	.lionis.one.computer {
 		width: 8.3333%;
@@ -71,6 +71,45 @@
 		width: 91.6663%;
 	}
 	.lionis.twelve.computer {
+		width: 99.9996%;
+	}
+}
+/* 手机端 */
+@media screen and (min-width: 40em) {
+	.lionis.one.phone {
+		width: 8.3333%;
+	}
+	.lionis.two.phone {
+		width: 16.6666%;
+	}
+	.lionis.three.phone {
+		width: 24.9999%;
+	}
+	.lionis.four.phone {
+		width: 33.3332%;
+	}
+	.lionis.five.phone {
+		width: 41.6665%;
+	}
+	.lionis.six.phone {
+		width: 49.9998%;
+	}
+	.lionis.seven.phone {
+		width: 58.3331%;
+	}
+	.lionis.eight.phone {
+		width: 66.6664%;
+	}
+	.lionis.nine.phone {
+		width: 74.9997%;
+	}
+	.lionis.ten.phone {
+		width: 83.3330%;
+	}
+	.lionis.eleven.phone {
+		width: 91.6663%;
+	}
+	.lionis.twelve.phone {
 		width: 99.9996%;
 	}
 }

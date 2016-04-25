@@ -4,6 +4,7 @@
  *  	private $name = "响应式";
  *  	private $description = "一个简单的响应式布局";
  *	}
+ *  github: github.com/zhangxiangliang
  */
 
 /* 全局初始化 */
@@ -30,10 +31,7 @@
 .lionis.twelve {
 	display: inline-block;
 	zoom: 1;
-    letter-spacing: normal;
-    word-spacing: normal;
     vertical-align: top;
-    text-rendering: auto;
 }
 /* PC端 */
 @media screen and (min-width: 80em) {
@@ -112,4 +110,4 @@
 	.lionis.twelve.phone {
 		width: 99.9996%;
 	}
-}
+}}

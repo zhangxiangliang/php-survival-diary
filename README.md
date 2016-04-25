@@ -29,5 +29,11 @@ Class Diary {
 
 	// Url: 03-modern-php-notebook
     $diaryThree = "Modern PHP 读书笔记";
+
+    // Url: 04-laravel-form-scratch
+    $diaryFour  = "Laravel 从头开始";
+
+    // Url: 05-lionis-css
+    $diaryFive  = "简易的基础CSS样式";
 }
 ```

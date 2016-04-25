@@ -1,0 +1,76 @@
+/*
+ *	class LionisCSS 
+ *  {
+ *  	private $name = "响应式";
+ *  	private $description = "一个简单的响应式布局";
+ *	}
+ */
+
+/* 全局初始化 */
+* {
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* 响应式初始化 */
+.lionis.one,
+.lionis.two,
+.lionis.three,
+.lionis.four,
+.lionis.five,
+.lionis.six,
+.lionis.seven,
+.lionis.eight,
+.lionis.nine,
+.lionis.ten,
+.lionis.eleven,
+.lionis.twelve {
+	display: inline-block;
+	zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto;
+}
+/* 电脑端 */
+@media screen and (min-width: 80em) {
+	.lionis.one.computer {
+		width: 8.3333%;
+	}
+	.lionis.two.computer {
+		width: 16.6666%;
+	}
+	.lionis.three.computer {
+		width: 24.9999%;
+	}
+	.lionis.four.computer {
+		width: 33.3332%;
+	}
+	.lionis.five.computer {
+		width: 41.6665%;
+	}
+	.lionis.six.computer {
+		width: 49.9998%;
+	}
+	.lionis.seven.computer {
+		width: 58.3331%;
+	}
+	.lionis.eight.computer {
+		width: 66.6664%;
+	}
+	.lionis.nine.computer {
+		width: 66.6664%;
+	}
+	.lionis.ten.computer {
+		width: 83.3330%;
+	}
+	.lionis.eleven.computer {
+		width: 91.6663%;
+	}
+	.lionis.twelve.computer {
+		width: 99.9996%;
+	}
+}
